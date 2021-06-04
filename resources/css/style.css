@@ -1,0 +1,345 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color:#555;
+
+}
+
+header
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url(images/hero.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    
+}
+
+h1{
+    color: white;
+    font-size: 240%;
+     text-transform: uppercase;
+    font-weight: 300;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+.btn:link , .btn:visited{
+    display: inline-block;
+    color: white;
+    border-radius: 200px;
+    margin-top:17px;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-weight: 300;
+    border: 1px solid #e74c3c;
+    transition: background-color 0.3s;
+}
+
+.btn-1:link , .btn-1:visited{
+    background-color: #e74c3c;
+    margin-right:15px;
+}
+
+.btn:hover , .btn:active{
+    background-color: #a82315;
+    border: 1px solid #e74c3c;
+}
+
+nav{
+    height:15%;
+    position: absolute;
+    top: 0;
+    right:0;
+}
+
+nav ul{
+list-style: none;
+margin-top: 20px;
+}
+
+nav li{
+    display: inline;
+    
+    margin-right: 60px;
+}
+nav a:link , nav a:visited{
+    text-decoration: none;
+    color: white;
+    font-size: 94%;
+    text-transform: uppercase;
+    padding-bottom: 5px ;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+nav a:hover  , nav a:active{
+    border-bottom: 2px solid #a82315;
+}
+
+
+.features{
+    padding: 80px 0;
+    margin:0 auto;
+    max-width:1140px;
+}
+
+
+
+.heading{
+    text-align: center;
+    text-transform:uppercase;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.heading::after{
+    display: block;
+    background-color: #a82315;
+    height:2px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    content: " ";
+}
+
+.container
+{
+    display: flex;
+    
+}
+
+.container div{
+
+  padding: 30px; 
+}
+
+.container h3{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.container p{
+    line-height: 145%;
+    font-size: 90%;
+}
+
+.meals{
+
+    width:100%;
+     
+}
+
+.div-row
+{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.div-row div{
+    width: 25%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.div-row img{
+    opacity: 0.7;
+    width: 100%;
+    transform:scale(1.15);
+    transition: transform 0.5s opacity 0.5s;
+    
+}
+
+ .div-row img:hover{
+     opacity: 1;
+    transform:scale(1.03);
+}
+
+.working
+{
+    margin-top: 90px;
+    height:400px;
+    margin-bottom: 150px;
+}
+
+.download {
+    
+    height: 100%;
+    display: flex;
+}
+
+.download div{
+    width:50%;   
+}
+
+.img-div{
+     text-align: right;
+}
+
+.list-div{
+    padding: 2% 10%;
+}
+.img-div img{
+    height:100%;
+     
+}
+
+.list-div ul{
+    list-style: none;
+}
+.list-div li{
+    margin-bottom: 25px;
+    
+}
+
+.list-div a{
+    display: inline-block;
+    margin-top: 100px;
+    
+}
+
+.playstore img{
+    width:110px;
+    height:40px;
+    
+
+}
+
+
+.cities
+{
+    padding: 80px 0;
+    margin: 0 25px;
+    overflow: hidden;
+
+}
+
+.cities h3{
+    text-transform: uppercase;
+    font-size: 110%;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.city
+{
+    width: 25%;
+    margin:0 25px;
+    
+}
+
+.city-container{
+    display: flex;
+    padding:25px 0;
+
+}
+
+.city img{
+    width:100%;
+    margin-bottom: 20px; 
+}
+
+.city-feature{
+    font-size: 90%;
+    margin-bottom: 5px;
+}
+
+.city-feature a:link , .city-feature a:visited {
+    text-decoration: none;
+    color: #a82315;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #a82315;
+    transition: border-bottom 0.5s  , color 0.5s;
+}
+
+.city-feature a:hover , .city-feature:active{
+    color: black;
+    border-bottom: 0;   
+}
+
+.customers-review
+{
+    padding:80px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.788)) , url(images/back-customers.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 60px;
+    background-attachment: fixed;
+    color: white;
+}
+
+.reviews
+{
+    display: flex;
+    max-width:1140px;
+    margin:0 auto;
+}
+
+.review{
+    padding:2%;
+}
+
+ .review p{
+    line-height: 145%;
+    font-size: 90%;
+    font-style: italic;
+    
+ }
+
+ .cites{
+     margin-top:25px;
+    
+ }
+
+  .heading-customers
+  {
+      margin-bottom: 10px;
+  }
+
+ .cites img{
+     border-radius: 50%;
+     height:50px;
+     margin-right: 5px;
+     vertical-align: middle;
+ }
+
+ .cites p{
+     display: inline-block;
+     
+ }
+
+
+ .quote{
+     height:70px;
+     position:relative;
+ }
+ .quote p
+ {
+    height: 100%;
+    width: 100%;
+    font-size: 500%;
+    position: absolute;
+    top: -1px;
+    left: -17px;
+ }
