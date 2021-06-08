@@ -284,12 +284,11 @@ nav a:hover  , nav a:active{
     background-image: linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.788)) , url(images/back-customers.jpg);
     background-position: center;
     background-size: cover;
-    margin-bottom: 60px;
     background-attachment: fixed;
     color: white;
 }
 
-.reviews
+.contain-er
 {
     display: flex;
     max-width:1140px;
@@ -342,4 +341,15 @@ nav a:hover  , nav a:active{
     position: absolute;
     top: -1px;
     left: -17px;
+ }
+
+
+ .sign-up
+ {
+    padding:80px 0;
+ }
+
+ .plan
+ {
+     width:25%;
  }
